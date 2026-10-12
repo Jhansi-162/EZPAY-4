@@ -1,0 +1,159 @@
+2026-10-12T01:56:52.435-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Starting EzpayTransactionApplication using Java 25.0.4.1 with PID 6488 (C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction\target\classes started by azureuser in C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction)
+2026-10-12T01:56:52.440-07:00 DEBUG 6488 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Running with Spring Boot v3.4.13, Spring v6.2.15
+2026-10-12T01:56:52.441-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-10-12T01:56:52.577-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\azureuser\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.3.0.0\ojdbc11-23.26.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/azureuser/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.3.0.0/oraclepki.jar
+2026-10-12T01:56:52.577-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-12T01:56:52.578-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-12T01:56:53.817-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T01:56:53.889-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2026-10-12T01:56:54.417-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-10-12T01:56:54.441-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T01:56:54.442-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-10-12T01:56:54.545-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-12T01:56:54.547-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1968 ms
+2026-10-12T01:56:54.792-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-12T01:56:54.886-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-10-12T01:56:54.944-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-12T01:56:55.429-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T01:56:55.632-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-12T01:56:56.958-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@36f9c44a
+2026-10-12T01:56:56.960-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-12T01:56:57.258-07:00  WARN 6488 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-12T01:56:57.486-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T01:56:58.731-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T01:57:00.085-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T01:57:00.654-07:00  WARN 6488 --- [ezpay-transaction] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T01:57:01.071-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-12T01:57:01.140-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 50696 (http) with context path '/'
+2026-10-12T01:57:01.157-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Started EzpayTransactionApplication in 10.26 seconds (process running for 10.746)
+2026-10-12T01:57:01.162-07:00  INFO 6488 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : EZPay Transaction application started
+2026-10-12T01:58:43.828-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Starting EzpayTransactionApplication using Java 25.0.4.1 with PID 14128 (C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction\target\classes started by azureuser in C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction)
+2026-10-12T01:58:43.880-07:00 DEBUG 14128 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Running with Spring Boot v3.4.13, Spring v6.2.15
+2026-10-12T01:58:43.895-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-10-12T01:58:44.073-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\azureuser\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.3.0.0\ojdbc11-23.26.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/azureuser/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.3.0.0/oraclepki.jar
+2026-10-12T01:58:44.075-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-12T01:58:44.077-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-12T01:58:46.010-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T01:58:46.149-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2026-10-12T01:58:46.804-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-10-12T01:58:46.824-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T01:58:46.825-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-10-12T01:58:46.950-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-12T01:58:46.951-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2870 ms
+2026-10-12T01:58:47.546-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-12T01:58:47.696-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-10-12T01:58:47.764-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-12T01:58:48.397-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T01:58:48.473-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-12T01:58:48.964-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@19a89eb1
+2026-10-12T01:58:48.966-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-12T01:58:49.281-07:00  WARN 14128 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-12T01:58:49.477-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T01:58:50.982-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T01:58:52.397-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T01:58:52.937-07:00  WARN 14128 --- [ezpay-transaction] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T01:58:53.346-07:00  WARN 14128 --- [ezpay-transaction] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-10-12T01:58:53.419-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55914 (http) with context path '/'
+2026-10-12T01:58:53.441-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Started EzpayTransactionApplication in 10.318 seconds (process running for 11.308)
+2026-10-12T01:58:53.447-07:00  INFO 14128 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : EZPay Transaction application started
+2026-10-12T02:03:26.147-07:00  INFO 14128 --- [ezpay-transaction] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12T02:03:26.147-07:00  INFO 14128 --- [ezpay-transaction] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-12T02:03:26.149-07:00  INFO 14128 --- [ezpay-transaction] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-12T02:21:18.024-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Starting EzpayTransactionApplication using Java 25.0.4.1 with PID 13708 (C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction\target\classes started by azureuser in C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction)
+2026-10-12T02:21:18.045-07:00 DEBUG 13708 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Running with Spring Boot v3.4.13, Spring v6.2.15
+2026-10-12T02:21:18.048-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-10-12T02:21:18.148-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\azureuser\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.3.0.0\ojdbc11-23.26.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/azureuser/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.3.0.0/oraclepki.jar
+2026-10-12T02:21:18.182-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-12T02:21:18.214-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-12T02:21:19.008-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T02:21:19.090-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2026-10-12T02:21:19.530-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-10-12T02:21:19.592-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T02:21:19.594-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-10-12T02:21:19.684-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-12T02:21:19.686-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1466 ms
+2026-10-12T02:21:20.031-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-12T02:21:20.092-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-10-12T02:21:20.151-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-12T02:21:20.491-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T02:21:20.535-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-12T02:21:20.883-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1c5c1c64
+2026-10-12T02:21:20.886-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-12T02:21:21.096-07:00  WARN 13708 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-12T02:21:21.247-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T02:21:22.317-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T02:21:22.819-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T02:21:23.218-07:00  WARN 13708 --- [ezpay-transaction] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T02:21:23.552-07:00  WARN 13708 --- [ezpay-transaction] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-10-12T02:21:23.622-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 63114 (http) with context path '/'
+2026-10-12T02:21:23.637-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Started EzpayTransactionApplication in 6.21 seconds (process running for 6.999)
+2026-10-12T02:21:23.643-07:00  INFO 13708 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : EZPay Transaction application started
+2026-10-12T02:24:37.225-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12T02:24:37.225-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-12T02:24:37.227-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-12T02:28:26.638-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Starting EzpayTransactionApplication using Java 25.0.4.1 with PID 14736 (C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction\target\classes started by azureuser in C:\Users\azureuser\eclipse-workspace\prashanthi\ezpay-transaction)
+2026-10-12T02:28:26.667-07:00 DEBUG 14736 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Running with Spring Boot v3.4.13, Spring v6.2.15
+2026-10-12T02:28:26.691-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-10-12T02:28:26.771-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\azureuser\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.26.3.0.0\ojdbc11-23.26.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/azureuser/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.26.3.0.0/oraclepki.jar
+2026-10-12T02:28:26.773-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-12T02:28:26.780-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-12T02:28:27.652-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T02:28:27.721-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-10-12T02:28:28.460-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-10-12T02:28:28.508-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T02:28:28.509-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-10-12T02:28:28.649-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-12T02:28:28.654-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1873 ms
+2026-10-12T02:28:28.909-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-12T02:28:28.994-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-10-12T02:28:29.066-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-12T02:28:29.432-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T02:28:29.475-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-12T02:28:29.813-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@73c88512
+2026-10-12T02:28:29.817-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-12T02:28:30.177-07:00  WARN 14736 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-12T02:28:30.340-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T02:28:31.341-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T02:28:31.830-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T02:28:32.289-07:00  WARN 14736 --- [ezpay-transaction] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T02:28:32.637-07:00  WARN 14736 --- [ezpay-transaction] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-10-12T02:28:32.702-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 53507 (http) with context path '/'
+2026-10-12T02:28:32.726-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : Started EzpayTransactionApplication in 7.544 seconds (process running for 8.212)
+2026-10-12T02:28:32.732-07:00  INFO 14736 --- [ezpay-transaction] [restartedMain] c.e.t.EzpayTransactionApplication        : EZPay Transaction application started
+2026-10-12T02:29:50.677-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-3] c.e.t.t.c.TransactionController          : Received create transaction request
+2026-10-12T02:29:50.692-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-3] c.e.t.t.service.TransactionService       : Creating transaction for customerId=123
+2026-10-12T02:29:50.907-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-3] c.e.t.t.service.TransactionService       : Transaction created successfully with id=41
+2026-10-12T02:30:23.455-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-4] c.e.t.t.c.TransactionController          : Received request to get transaction id=1
+2026-10-12T02:30:23.458-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-4] c.e.t.t.service.TransactionService       : Looking up transaction id=1
+2026-10-12T02:30:47.777-07:00  WARN 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'status': Failed to convert value of type 'java.lang.String' to required type 'com.ezpay.transaction.transaction.entity.TransactionStatus'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam com.ezpay.transaction.transaction.entity.TransactionStatus] for value [COMPLETED]]
+2026-10-12T02:31:33.228-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-6] c.e.t.t.c.TransactionController          : Received create transaction request
+2026-10-12T02:31:33.229-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-6] c.e.t.t.service.TransactionService       : Creating transaction for customerId=123
+2026-10-12T02:31:33.232-07:00  INFO 13708 --- [ezpay-transaction] [http-nio-auto-1-exec-6] c.e.t.t.service.TransactionService       : Transaction created successfully with id=42
